@@ -25,7 +25,7 @@ app.add_middleware(
 )
 
 # Set up Together AI API
-os.environ["TOGETHER_API_KEY"] = "0bc66dcded6a57c5aca11ec7f61089f423307023ba560e3b3178fb36c7923a10"
+os.environ["TOGETHER_API_KEY"] = "YOUR_API_KEY"
 
 client = openai.OpenAI(
     api_key=os.environ.get("TOGETHER_API_KEY"),
